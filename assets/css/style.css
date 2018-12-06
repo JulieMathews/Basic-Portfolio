@@ -5,6 +5,8 @@ body {
 
 header {
     background-color: #ffffff;
+    margin: auto;
+    width: 960px;
     width: 100%;
     height: 58px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -20,27 +22,27 @@ section {
 }
 
 #name {
-    margin-left: 150px;
+    margin-left: 105px;
     background-color: #4aaaa5;
     padding: 20px 50px;
     color: white;
     font-size: 20px;
 }
 
-#about, #contact{
+#about, #portfolio{
     float: right;
     background-color: #ffffff;
     margin-right: 10px;
     font-size: 14px;
 }
 
-#contact {
+#portfolio {
     border-left: 1px solid #eeeded;
     border-right: 1px solid #eeeded;
 }
 
-#portfolio {
-    margin-right: 150px;
+#contact {
+    margin-right: 105px;
     float: right;
     background-color: #ffffff;
     font-size: 14px;
@@ -52,9 +54,9 @@ h2 {
 
 div {
     color: #777777;
+    margin: auto;
+    width: 960px;
     margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
     padding: 20px 50px;
     background-color: #ffffff;
     border-color: #dddddd;
@@ -63,5 +65,21 @@ div {
 }
 
 #content {
+    margin-left: 105px;
+    margin-right: 105px;
+    padding: 20px 50px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+}
 
+img {
+    float: left;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
