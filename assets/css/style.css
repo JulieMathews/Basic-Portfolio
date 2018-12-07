@@ -1,6 +1,8 @@
 body {
     background-image: url("../images/leaves.png");
     background-repeat: repeat;
+    cursor: url('path-to-image.png'), auto;	
+    
 }
 
 header {
@@ -9,7 +11,7 @@ header {
     width: 960px;
     width: 100%;
     height: 58px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
     border-color: #cccccc;
     border-width: 1px;
     border-bottom-style: solid;
@@ -55,13 +57,15 @@ h2 {
 div {
     color: #777777;
     margin: auto;
-    width: 960px;
+    width: 940px;
     margin-top: 50px;
-    padding: 20px 50px;
+    padding: 10px 10px;
     background-color: #ffffff;
     border-color: #dddddd;
     border-width: 1px;
     border-style: solid;
+    overflow: auto;
+    margin-left: 105px;
 }
 
 #content {
@@ -82,4 +86,16 @@ img {
 
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#gallery {
+
+}
+
+span {
+    display: inline-block;
+}
+
+img {
+    width: 30%;
 }
